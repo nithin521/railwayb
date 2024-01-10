@@ -19,7 +19,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["railwayb-production.up.railway.app"],//change this
+    origin: ["https://main--hilarious-sable-2159d8.netlify.app/"],//change this
     methods: ["GET", "POST", "*", "DELETE", "UPDATE", "PUT"],
     credentials: true,
   })
