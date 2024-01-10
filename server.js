@@ -424,7 +424,7 @@ app.delete("/admin/:bookId", async(req, res) => {
     await copyQuery(`update books set title="${title}",book_desc="${desc}",author="${auth}",image_link="${image}" where book_id=${bookId}`);
   })
   
-  app.listen(process.env.PORT, () => {
+  app.listen(process.env.MYSQLPORT, () => {
     console.log("App is listening on port 5000");
   });
 
