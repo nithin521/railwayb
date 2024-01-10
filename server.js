@@ -425,7 +425,7 @@ app.delete("/admin/:bookId", async(req, res) => {
   })
   
   app.listen(process.env.MYSQLPORT, () => {
-    console.log("App is listening on port 5000");
+    console.log("App is listening on port 3000");
   });
 
   
